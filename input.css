@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import "tailwindcss";
+
+/* @utility container{
+    margin:auto
+} */
+
+/* @theme{
+    --breakpoint-sm:700px;
+    --breakpoint-md:900px;
+    --breakpoint-lg:1000px;
+    --breakpoint-big:1300px;
+} */
+
+@theme{
+    --font-rockSalt:"Rock Salt", "cursive";
+}
+
+/* @theme {
+    --padding-10:100px;
+    --padding-c-50:50px;
+    --padding-wrapper:20px;
+    --margin-20:20px;
+} */
+
+/* @custom-variant dark (&:where(.dark, .dark *)); */
+
+/* @layer base{
+    h1{
+        font-size:2rem;
+        font-weight:bold;
+        color:red;
+    }
+    .dop{
+        background-color:blue;
+        color: wheat;
+        font-size: 2rem;
+    }
+    button
+    {
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 3px;
+        font-size: larger;
+        padding: 4px;
+    }
+} */
+
+/* @layer base{
+    h1{
+        @apply font-bold text-3xl text-red-700;
+    }
+    .dop{
+        @apply text-sky-600;
+    }
+} */
+
+/* @layer components{
+    .btn-primary{
+        @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+    }
+} */
+
+/* //but in this type of custom classes with non layer component we can not use hover type classes so we should not use this method
+.non-layer{
+    @apply bg-red-500;
+} */
+
+/* @layer components{
+    .btn{
+        @apply  text-white font-bold py-2 px-4 rounded;
+    }   
+} */
+
+/* @layer components{
+    .img-anime{
+        @apply w-90 rounded-xl border-4 border-blue-400 hover:scale-120 transition duration-800 hover:brightness-150;
+    }
+}
+ */
+
